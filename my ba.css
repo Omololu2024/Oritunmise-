@@ -1,0 +1,187 @@
+@media (prefers-reduced-motion:no-preference) {
+ * {
+  Scroll-behavior: smooth;
+}       
+}
+body {
+    margin: 0px;
+    background-color: deeppink;
+    display: inline;
+    font-family: 
+ 
+}
+
+#logo {
+  width: max(45px,10vw);
+    aspect-ratio: 2 / 2;
+    padding: 0.4rem; 
+    position: relative;
+    right:25px;
+}
+
+#equip {
+    width:max(100px,20vw);
+    margin-bottom: 25px;
+}
+
+header {
+    background-color: purple;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+}
+
+nav > ul {
+    display: flex;
+    flex-wrap: row; 
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    margin-block: 0px;
+    padding-inline-start: 50px;
+    height: 100%;
+}
+
+nav > ul > li {
+    color: #fff;
+    display: block;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+   
+}
+
+nav > ul > li:hover {
+    background-color: red;
+    color: #252422;
+    cursor: pointer;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px -1px  teal;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: Arial;
+}
+
+main {
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.pride {
+    width: 260px;
+    height: 80px;
+    border: 2px groove #03a9f5;
+    text-shadow: 1px -1px  teal;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+#cost-offer {
+    border-bottom: 2px solid #fff;
+}
+
+.what-we-do {
+    width: 260px;
+    height: 100px;
+    background-color:#fdec3d;
+    border-bottom: 1px solid white;
+    position: static;
+    font-size: 15px;
+    color: brown;
+    text-shadow: 
+    font-family: Arial;
+}
+.package {
+    display: inline;
+    width: 119px;
+    height: 82%;
+    border: 2px ridge #03a9f5;
+    justify-content: space-between; 
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#silver {
+    background-color: #03A9F5;
+    padding: 5px;
+    display: flex;
+   font-size:13px;
+   font-weight: bold;
+   justify-content: space-between;
+   margin: 0px auto;
+  
+}
+
+.price {
+    color: white;
+    margin:10px;
+    font-weight: bold;
+}
+
+#hold {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center; 
+}
+
+.via {
+    background-color: yellow;
+    padding: 6px 0;
+    width: 55%;
+    font-size: 15px;
+    text-align: center;
+    color: brown;
+    margin-top: 40px;
+    text-shadow: 1px -1px  teal;
+    font-family: Arial;
+}
+
+.container {
+    color: white;
+}
+.gift {
+    font-size: 18px;
+    text-align: center;
+}
+
+footer {
+    background-color: #252422;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    padding: 6px;
+    margin-top: 50px;
+   
+}
+
+.housing {
+     display: inline;
+    justisfy-content: center;
+    padding: 55px;
+    font-size: 13px;
+}
+
+.otaF {
+    color: #ffffff;
+    text-shadow: 1px -1px  teal;
+    font-size:15px;
+    font-family: Arial;
+    margin-bottom: 60px;
+}
+
+
+.cont {
+    background-color: #252422;
+    color: #fff;
+    text-align: left;
+} 
+
